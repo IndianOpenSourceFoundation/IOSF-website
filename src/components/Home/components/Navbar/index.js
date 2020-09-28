@@ -22,7 +22,7 @@ const Navbar = () => {
            <Toolbar>
              <div className="navbar__logo">
               <Link href="hello">
-                <img src="/img/iosf-logo.png" height="40px" />
+                <img src="/img/iosf-logo.png" height="40px" alt="iosf-logo" />
                 <h6>Indian Open Source Foundation</h6>
               </Link>
              </div>

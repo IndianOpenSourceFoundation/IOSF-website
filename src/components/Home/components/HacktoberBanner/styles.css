@@ -23,6 +23,10 @@
   font-family: "Poppins";
 }
 
+.hactoberbanner__text h3 > span {
+  font-size: 3rem;
+}
+
 .hactoberbanner__text a:hover {
   text-decoration: none;
 }
@@ -71,6 +75,10 @@
     color: #ffffff;
     text-align: center;
     font-family: "Poppins";
+  }
+
+  .hactoberbanner__text__sm h3 > span {
+    font-size: 2rem;
   }
 
   .hactoberbanner__text__sm a:hover{

@@ -11,10 +11,10 @@ const Footer = () => {
         
         <div className="footer__blockquote">
           <blockquote>
-            Join us as a contributor and associate with us in our journey for making Open Source Contribution lit 🔥 and super powerful for the budding and already existing developer community.
+            Join us as a contributor and associate with us in our journey for making Open Source Contribution lit <span role="img" aria-label="fire emoji">🔥</span> and super powerful for the budding and already existing developer community.
           </blockquote>
           <Link>
-            <Button variant="link" size="large">Join Us</Button>
+            <Button variant="contained" size="large">Join Us</Button>
           </Link>
         </div>
         <div className="footer__grid">
@@ -47,26 +47,36 @@ const Footer = () => {
             </Grid>
             <Grid item sm={4}>
               <h4>Connect</h4>
-                <Link href="http://www.google.com">
-                <IconButton size="medium">
-                  <Facebook fontSize="large" style={{color: "#eee"}} />
-                </IconButton>
+                <Link target="_blank" rel='noopener noreferrer'  href="https://www.facebook.com/iosfindia/?eid=ARDRVMvDpW-Q13ReYfutBPNs7y7shTHZVbxEGQWQ_65eFZrdExX3-FfA2z2obFImN3UVP57n7fsktZ4n&fref=tag">
+                  <IconButton size="medium">
+                    <Facebook fontSize="large" style={{color: "#eee"}} />
+                  </IconButton>
                 </Link>
-                <IconButton>
-                  <Instagram fontSize="large" style={{color: "#eee"}} />
-                </IconButton>
-                <IconButton>
-                  <Twitter fontSize="large" style={{color: "#eee"}} />
-                </IconButton>
-                <IconButton>
-                  <YouTube fontSize="large" style={{color: "#eee"}} />
-                </IconButton>
-                <IconButton>
-                  <LinkedIn fontSize="large" style={{color: "#eee"}} />
-                </IconButton>
-                <IconButton>
-                  <GitHub fontSize="large" style={{color: "#eee"}} />
-                </IconButton>
+                <Link target="_blank" rel='noopener noreferrer' href="https://www.instagram.com/iosf_india/">
+                  <IconButton>
+                    <Instagram fontSize="large" style={{color: "#eee"}} />
+                  </IconButton>
+                </Link>
+                <Link target="_blank" rel='noopener noreferrer' href="https://twitter.com/iosf_india">
+                  <IconButton>
+                    <Twitter fontSize="large" style={{color: "#eee"}} />
+                  </IconButton>
+                </Link>
+                <Link target="_blank" rel='noopener noreferrer' href="https://www.youtube.com/channel/UCU16gJvjk-bB2RfwBIq2DSA">
+                  <IconButton >
+                    <YouTube fontSize="large" style={{color: "#eee"}} />
+                  </IconButton>
+                </Link>
+                <Link target="_blank" rel='noopener noreferrer' href="https://www.linkedin.com/company/iosf/">
+                  <IconButton>
+                    <LinkedIn fontSize="large" style={{color: "#eee"}} />
+                  </IconButton>
+                </Link>
+                <Link target="_blank" rel='noopener noreferrer' href="https://github.com/IndianOpenSourceFoundation">
+                  <IconButton>
+                    <GitHub fontSize="large" style={{color: "#eee"}} />
+                  </IconButton>
+                </Link>
             </Grid>
           </Grid>
           <div className="footer__copyright">

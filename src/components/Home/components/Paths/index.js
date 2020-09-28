@@ -1,6 +1,6 @@
 import React from 'react';
 import "./styles.css";
-import { Button, Container, Grid } from "@material-ui/core";
+import { Button, Container, Grid, Link } from "@material-ui/core";
 import { ArrowForward } from "@material-ui/icons";
 
 
@@ -12,7 +12,7 @@ const Paths = () => {
         <div className="paths__grid">
           <Grid container spacing={5}>
             <Grid item sm={6}>
-              <img src="/img/home/beginner-fiendly.svg" />
+              <img src="/img/home/beginner-fiendly.svg" alt="beginner-friendly-banner" />
             </Grid>
             <Grid item sm={6} >
               <div className="paths__beginner">
@@ -20,10 +20,12 @@ const Paths = () => {
                 <p>This path is specially designed for those who have little or zero experience in computer programming and open source.
                   <br /> We will cover JavaScript, Python and Version Control (Git) form scratch and kick off by contributing to small yet interesting projects.
                 </p>
-                <p></p>
-                <Button
-                  endIcon={<ArrowForward />}
-                >Get Started</Button>
+                <Link>
+                  <Button
+                    variant="contained"
+                    endIcon={<ArrowForward />}
+                  >Get Started</Button>
+                </Link>
               </div>
             </Grid>
           </Grid>
@@ -35,14 +37,16 @@ const Paths = () => {
                 <p>This path is a step further, we will use our programming skills and logic to contribute and build products that will solve a real-life problem.
                   <br /> Contribute to our source code and help us build better products
                 </p>
-                <p></p>
-                <Button
-                  endIcon={<ArrowForward />}
-                >Get Started</Button>
+                <Link>
+                  <Button
+                    variant="contained"
+                    endIcon={<ArrowForward />}
+                  >Get Started</Button>
+                </Link>
               </div>
             </Grid>
             <Grid item sm={6} >
-              <img src="/img/home/advanced-path.svg" />
+              <img src="/img/home/advanced-path.svg" alt="advanced-banner" />
             </Grid>
           </Grid>
         </div>

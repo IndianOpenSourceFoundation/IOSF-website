@@ -38,9 +38,23 @@
   color: #4d4d4d;
 }
 
-.paths__beginner > button {
-  margin-top: 30px;
+.paths__beginner > a {
+
 }
+
+.paths__beginner a:hover{
+  text-decoration: none;
+}
+
+.paths__beginner > a > button {
+  margin-top: 30px;
+  background-color: #2b2d42;
+  color: #ffffff;
+}
+
+.paths__beginner > a > button:hover {
+  background-color: #2b2d42;
+} 
 
 @media screen and (max-width : 600px){
   .paths__title{

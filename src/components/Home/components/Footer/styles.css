@@ -13,6 +13,10 @@
   border-left: 5px solid #ef233c;
 }
 
+.footer__blockquote > blockquote > span {
+  font-size: 1.5rem;
+}
+
 .footer__blockquote > a:hover {
   text-decoration: none;
 }
