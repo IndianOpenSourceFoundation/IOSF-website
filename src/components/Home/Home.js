@@ -1,19 +1,21 @@
-import React from 'react';
-import Header from "./components/Header/Header";
-import LearningPaths from "./components/LearningPaths/LearningPaths";
-import Bootcamps from "./components/Bootcamps/Bootcamps";
-import Contribute from "./components/Contribute/Contribute";
-import AppFooter from './components/Footer/AppFooter';
+import React from 'react'
 
+// components 
+import Footer from './components/Footer';
+import Header from './components/Header'
+import Motto from './components/Motto';
+import Paths from './components/Paths';
+import "./Home.css";
+import HacktoberBanner from './components/HacktoberBanner';
 
-const Home  = () => {
+const Home = () => {
   return ( 
-    <div className="Homepage">
+    <div>
       <Header />
-      <LearningPaths />
-      <Bootcamps />
-      <Contribute />
-      <AppFooter />
+      <Motto />
+      <HacktoberBanner />
+      <Paths />
+      <Footer />
     </div>
    );
 }

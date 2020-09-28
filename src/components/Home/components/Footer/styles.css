@@ -1,0 +1,108 @@
+.footer__section{
+  padding: 50px 0px;
+  background-color: #2b2d42;
+  color: #ffffff;
+}
+
+.footer__blockquote > blockquote{
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  text-align: center;
+  font-weight: 200;
+  font-style: italic;
+  border-left: 5px solid #ef233c;
+}
+
+.footer__blockquote > a:hover {
+  text-decoration: none;
+}
+
+.footer__blockquote > a > button{
+  display: block;
+  margin: 20px auto;
+  background-color: #ef233c;
+  box-shadow: none;
+  color: #ffffff;
+  text-align: center;
+}
+
+.footer__blockquote > a> button:hover {
+  text-decoration: none;
+  background-color: #ef233c;
+  box-shadow: none;
+}
+
+.footer__grid {
+  padding: 50px 0px;
+}
+
+.footer__grid h4 {
+  padding: 50px 0px;
+  font-family: "Poppins";
+  font-size: 1.8rem;
+}
+
+.footer__generallinks li{
+  list-style-type: none;
+  padding: 5px 0px;
+}
+
+.footer__generallinks li > a {
+  color: #ffffff;
+  font-size: 1.1rem;
+  text-decoration: none;
+}
+
+.footer__generallinks li > a:hover {
+  color: lightgrey;
+  text-decoration: underline;
+}
+
+/* styles for material text field */
+
+.footer__subscribe .MuiTextField-root{
+  width: 70%;
+}
+
+.footer__subscribe .MuiTextField-root > label {
+  color: white !important;
+}
+
+.footer__subscribe label.Mui-focused{
+  color: white !important;
+}
+
+.footer__subscribe .MuiOutlinedInput-root, fieldset{
+  border-color: white !important; 
+  color: white !important;
+  font-weight: bold !important;
+}
+
+.footer__subscribe > button{
+  margin-top: 20px;
+  display: block;
+  background-color: #00d1b2;
+  color: #ffffff;
+  box-shadow: none;
+}
+
+.footer__subscribe > button:hover {
+  background-color: #00d1b2;
+  box-shadow: none;
+}
+
+.footer__copyright{
+  padding-top: 100px;
+}
+
+.footer__copyright > p {
+  padding: 5px 0px;
+  color: lightgrey;
+}
+
+@media screen and (max-width : 600px){
+  .footer__blockquote > blockquote{
+    font-size: 1rem;
+    line-height: 2rem;
+  }
+}

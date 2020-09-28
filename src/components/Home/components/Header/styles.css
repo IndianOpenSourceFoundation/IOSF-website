@@ -1,0 +1,106 @@
+.header{
+  height: 100vh;
+  background-image: url("/img/home/iosf_hero_banner.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.header__hero{
+  padding-top: 150px;
+}
+
+.header__hero__title{
+  font-size: 3.5rem;
+  font-family: "Poppins";
+  color: #2b2d42;
+}
+
+.header__hero__subtitle{
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: #4d4d4d;
+  line-height: 2.4rem;
+  padding-top: 30px;
+}
+
+.header__hero__subtitle > strong {
+  font-size: 1.5rem;
+}
+
+.header__hero__btns{
+  padding-top: 50px;
+}
+
+.header__hero__btns > a > button {
+  height: 52px;
+  line-height: 26px;
+  border-radius: 30px;
+  box-shadow: none;
+}
+
+.header__hero__btns > a:hover {
+  text-decoration: none;
+}
+
+.header__hero__btns > a > button:hover {
+  box-shadow: none;
+}
+
+button.header__joinus__btn{
+  background-color: #ef233c;
+}
+
+button.header__joinus__btn:hover{
+  background-color: #ef233c;
+}
+
+button.header__joinus__btn > span {
+  color: #ffffff;
+}
+
+button.header__ourproducts__btn{
+  background-color: transparent;
+  border: 1px solid #ef233c;
+  margin-left: 30px;
+}
+
+button.header__ourproducts__btn:hover{
+  background-color: transparent;
+  border: 1px solid #ef233c;
+}
+
+button.header__ourproducts__btn > span {
+  color: #ef233c;
+}
+
+
+@media screen and (max-width : 600px){
+  .header__hero{
+    padding-top: 100px;
+  }
+
+  .header__hero__title{
+    font-size: 2rem;
+  }
+
+  .header__hero__subtitle {
+    font-size: 1rem;
+  }
+
+  .header__hero__subtitle > strong {
+    font-size: 1rem;
+  }
+
+  .header__hero__btns > a > button {
+    height: 40px;
+    line-height: 20px;
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  button.header__ourproducts__btn{
+    margin-top: 30px;
+    margin-left: 0px;
+  }
+
+}

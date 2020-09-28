@@ -1,0 +1,51 @@
+.motto__section{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.motto__title{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-family: "Poppins";
+  color: #2b2d42;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.motto__grid{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.motto__item{
+  text-align: center;
+}
+
+.motto__item > h4 {
+  font-size: 1.6rem;
+  font-family: "Poppins";
+  color: #4d4d4d;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.motto__item > p {
+  color: #4d4d4d;
+  font-weight: 300;
+  font-size: 1.1rem;
+  line-height: 1.8rem;
+}
+
+@media screen and (max-width : 600px){
+  .motto__title{
+    font-size: 2rem;
+  }
+
+  .motto__item > h4 {
+    font-size: 1.2rem;
+  }
+
+  .motto__item > p {
+    font-size: 1rem;
+  }
+}

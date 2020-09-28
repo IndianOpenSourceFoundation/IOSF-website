@@ -1,0 +1,84 @@
+.navbar__logo > a {
+  display: flex;
+  align-items: center;
+  color: #3c3c3c;
+}
+
+.navbar__logo > a:hover {
+  text-decoration: none;
+}
+
+.navbar__logo > a > h6 {
+  font-size: 1.2rem;
+  font-family: "Poppins";
+  padding-left: 10px;
+}
+
+.MuiAppBar-root {
+  background-color: white !important;
+  box-shadow: none !important;
+}
+
+.navbar__links {
+  display: block;
+}
+
+.navbar__links > a {
+  color: #3c3c3c;
+  font-weight: 600;
+}
+
+.navbar__links > a:hover{
+  text-decoration: none;
+}
+
+.navbar__links > a > button {
+  background-color: transparent;
+  border: 1px solid #ef233c;
+  color: #ef233c;
+}
+
+.navbar__links > a > button:hover {
+  background-color: transparent;
+}
+
+.navbar__burgerIcon{
+  display: none;
+}
+
+@media screen and (max-width : 600px){
+  .navbar__logo > a > h6 {
+    font-size: 0.8rem;
+  }
+
+  .navbar__links {
+    display: none;
+  }
+
+  .navbar__burgerIcon{
+    display: block;
+  }
+
+  .MuiDialog-paper a{
+    display: block;
+    text-align: center;
+    padding: 30px 0px;
+    color: #3c3c33;
+    font-weight: 600;
+  }
+
+  .MuiDialog-paper a:hover{
+    text-decoration: none;
+  }
+
+  .MuiDialog-paper a > button {
+    background-color: transparent;
+    border: 1px solid #ef233c;
+    color: #ef233c;
+  } 
+
+  .MuiDialog-paper a > button:hover{
+    background-color: transparent;
+  }
+
+}
