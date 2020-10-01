@@ -1,0 +1,49 @@
+.hero{
+  background-image: url("/img/hacktober/hacktober_banner.svg");
+  background-position: right;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+}
+
+.hero__heading{
+  padding-top: 70px;
+}
+
+.hero__title{
+  font-size: 4rem;
+  color: #072740;
+  font-family: "Poppins";
+}
+
+.hero__subtitle{
+  font-size: 2rem;
+  color: #4d4d4d;
+  font-weight: 500;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  line-height: 3rem;
+}
+
+.hero__subtitle > strong {
+  font-size: 2rem;
+  color: #08BDBA;
+  font-weight: 900;
+}
+
+.hero__btns a:hover{
+  text-decoration: none;
+}
+
+.hero__btns > a > button {
+  height: 52px;
+  line-height: 26px;
+  padding: 0px 26px;
+  background-color: #08BDBA;
+  color: white;
+}
+
+.hero__btns > a > button:hover{
+  background-color: #08BDBA;
+}
