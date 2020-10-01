@@ -8,26 +8,26 @@
 }
 
 .hero__heading{
-  padding-top: 70px;
+  padding-top: 150px;
 }
 
 .hero__title{
-  font-size: 4rem;
+  font-size: 3.5rem;
   color: #072740;
   font-family: "Poppins";
 }
 
 .hero__subtitle{
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: #4d4d4d;
   font-weight: 500;
   padding-top: 30px;
   padding-bottom: 50px;
-  line-height: 3rem;
+  line-height: 2.5rem;
 }
 
 .hero__subtitle > strong {
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: #08BDBA;
   font-weight: 900;
 }
