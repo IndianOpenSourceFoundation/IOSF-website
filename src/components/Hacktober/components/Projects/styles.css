@@ -47,7 +47,7 @@
 }
 
 .MuiCard-root h4 {
-  font-size: 1.8rem;
+  font-size: 1.4rem;
   padding-bottom: 10px;
 }
 
@@ -64,4 +64,22 @@
 
 .MuiCardActions-root > a > button {
   color: #08BDBA;
+}
+
+@media screen and (max-width : 600px){
+  .projects__title{
+    font-size: 2rem;
+  }
+
+  .projects__subtitle{
+    font-size: 1.2rem;
+  }
+
+  .projects__subtitle > strong {
+    font-size: 1.2rem;
+  }
+
+  .MuiCard-root p{
+    font-size: 1rem;
+  }
 }

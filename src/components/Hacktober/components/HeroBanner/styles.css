@@ -47,3 +47,27 @@
 .hero__btns > a > button:hover{
   background-color: #08BDBA;
 }
+
+
+@media screen and (max-width: 600px){
+  .hero{
+    background: #f1f7fa;
+  }
+
+  .hero__title{
+    font-size: 2rem;
+  }
+
+  .hero__subtitle{
+    font-size: 1.2rem;
+  }
+
+  .hero__subtitle > strong{
+    font-size: 1.2rem;
+  }
+
+  .hero__btns > a > button {
+    width: 100%;
+  }
+
+}
