@@ -1,7 +1,8 @@
 import React from 'react';
 import './styles.css';
 
-import { Container, Grid, Card, CardContent, CardAction } from '@material-ui/core';
+import { Container, Grid, Card, CardContent, CardActions, Link, Button } from '@material-ui/core';
+import { GitHub } from '@material-ui/icons';
 
 const Projects = () => {
   return ( 
@@ -13,26 +14,74 @@ const Projects = () => {
           <Grid container spacing={5}>
             <Grid item sm={4}>
               <Card>
+                <span>React</span>
                 <CardContent>
-                  <h4>Project Title</h4>
-                  <p>lorem ispum dolor sit ammet</p>
+                  <h4>IOSF Website</h4>
+                  <p>Official website of Indian Open Source Foundation</p>
                 </CardContent>
+                <CardActions>
+                  <Link>
+                    <Button
+                      endIcon={<GitHub />}
+                    >
+                      Contribute
+                    </Button>
+                  </Link>
+                </CardActions>
               </Card>
             </Grid>
             <Grid item sm={4}>
               <Card>
+                <span>CSS</span>
                 <CardContent>
-                  <h4>Project Title</h4>
-                  <p>lorem ispum dolor sit ammet dolo sir ammet</p>
+                  <h4>Easy Styles</h4>
+                  <p>Simple CSS based utility for creating reusable styled components</p>
                 </CardContent>
+                <CardActions>
+                  <Link>
+                    <Button
+                      endIcon={<GitHub />}
+                    >
+                      Contribute
+                    </Button>
+                  </Link>
+                </CardActions>
               </Card>
             </Grid>
             <Grid item sm={4}>
               <Card>
+                <span>Python</span>
                 <CardContent>
-                  <h4>Project Title</h4>
-                  <p>lorem ispum dolor sit ammet</p>
+                  <h4>Dynamic CLI</h4>
+                  <p>A CLI based utility for the devs.</p>
                 </CardContent>
+                <CardActions>
+                  <Link>
+                    <Button
+                      endIcon={<GitHub />}
+                    >
+                      Contribute
+                    </Button>
+                  </Link>
+                </CardActions>
+              </Card>
+            </Grid>
+            <Grid item sm={4}>
+              <Card>
+                <span>HTML & CSS</span>
+                <CardContent>
+                  <h4>IOSF Blog</h4>
+                  <p>A CLI based utility for the devs.</p>
+                </CardContent>
+                <CardActions>
+                  <Link>
+                    <Button
+                      endIcon={<GitHub />}
+                    >
+                      Contribute
+                    </Button>
+                  </Link>
+                </CardActions>
               </Card>
             </Grid>
           </Grid>

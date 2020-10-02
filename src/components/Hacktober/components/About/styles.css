@@ -1,0 +1,26 @@
+.about__section{
+  padding: 50px 0px;
+}
+
+.about__title{
+  padding: 30px 0px;
+  font-size: 3rem;
+  color: #2b2d42;
+  font-family: "Poppins";
+  text-align: center;
+}
+
+.about__content {
+  padding: 30px 0px;
+}
+
+.about__content p {
+  font-size: 1.5rem;
+  color: #4d4d4d;
+  font-weight: 500;
+  padding: 30px 0px;
+  line-height: 2.5rem;
+  text-align: center;
+  /* color: #08BDBA; */
+  border-left: 5px solid #08BDBA;
+}
