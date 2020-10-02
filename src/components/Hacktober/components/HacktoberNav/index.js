@@ -1,82 +1,62 @@
 import React, { useState } from 'react';
-import { AppBar, Toolbar, Container, Link, IconButton, Button, Dialog } from '@material-ui/core';
-import { Close, Menu } from '@material-ui/icons';
+import { AppBar, Toolbar, Container, Link, Button } from '@material-ui/core';
+import { GitHub } from '@material-ui/icons';
 
 import "./styles.css";
 
 const HacktoberNav = () => {
-  const [open, setOpen] = useState(false)
+  // const [open, setOpen] = useState(false)
 
-  const handleOpen = () => {
-    setOpen(true);
-  }
+  // const handleOpen = () => {
+  //   setOpen(true);
+  // }
 
-  const handleClose = () => {
-    setOpen(false)
-  }
+  // const handleClose = () => {
+  //   setOpen(false)
+  // }
 
   return ( 
-      <div>
+      <div className="hacktobernav">
         <AppBar>
           <Container>
            <Toolbar>
-             <div className="navbar__logo">
-              <Link href="hello">
+             <div className="hacktobernav__logo">
+              <Link href="/hacktober">
                 <img src="/img/hacktober/iosfxhack_logo.svg" height="40px" alt="iosf-logo" />
                 {/* <h6>Indian Open Source Foundation</h6> */}
               </Link>
              </div>
-             <div className="navbar__links" style={{marginLeft: "auto"}}>
-              <Link style={{paddingLeft: "50px"}}>
+             <div className="hacktobernav__links" style={{marginLeft: "auto"}}>
+              <Link href="/" style={{paddingLeft: "50px"}}>
                 Home
               </Link>
-              <Link style={{paddingLeft: "50px"}}>
+              <Link onClick={
+                (e) => {
+                  e.preventDefault()
+                  document.querySelector("#projects__section").scrollIntoView({behavior: "smooth"})
+                }
+              } style={{paddingLeft: "50px"}}>
                 Hactober Projects
               </Link>
-              <Link style={{paddingLeft: "50px"}}>
+              {/* <Link style={{paddingLeft: "50px"}}>
                 Blog
-              </Link>
-              <Link style={{paddingLeft: "50px"}}>
-                <Button>
+              </Link> */}
+              <Link href="https://github.com/IndianOpenSourceFoundation/" target="_blank" rel="noopener noreferrer" style={{paddingLeft: "50px"}}>
+                <Button
+                  endIcon={<GitHub />}
+                >
                   GitHub
                 </Button>
               </Link>
              </div>
-             <div className="navbar__burgerIcon" style={{paddingLeft: "50px"}}>
+             {/* <div className="hacktobernav__burgerIcon" style={{paddingLeft: "50px"}}>
               <IconButton onClick={handleOpen}>
                 <Menu />
               </IconButton>
-             </div>
+             </div> */}
            </Toolbar>
           </Container>
         </AppBar>
-
-        <Dialog fullScreen open={open} onClose={handleClose}>
-          <AppBar position="static">
-            <Toolbar>
-              <IconButton onClick={handleClose} style={{marginLeft: "auto"}}>
-                <Close />
-              </IconButton>
-            </Toolbar>
-          </AppBar>
-          <Container>
-            <Link>
-              Learning Paths
-            </Link>
-            <Link>
-              Our Products
-            </Link>
-            <Link>
-              Blog
-            </Link>
-            <Link>
-              <Button>
-                Join Us
-              </Button>
-            </Link>
-          </Container>
-        </Dialog>
-
       </div>
    );
 }

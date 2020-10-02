@@ -14,8 +14,10 @@ const HeroBanner = () => {
               <p className="hero__subtitle">We are celebrating the season of open source contributions, <strong>Hacktober 20'</strong>. So pick up a project that suits you and get started.</p>
               <div className="hero__btns">
                 <Link>
-                  <Button variant="contained">
-                    Hacktober Projects
+                  <Button variant="contained"
+                    onClick={() => document.querySelector("#projects__section").scrollIntoView({behavior: "smooth"})}
+                  >
+                    View Projects
                   </Button>
                 </Link>
                 {/* <Link>

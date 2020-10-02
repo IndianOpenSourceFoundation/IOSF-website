@@ -1,0 +1,48 @@
+.hacktobernav__links{
+  display: block;
+}
+
+.hacktobernav__links a {
+  color: #3c3c3c;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.hacktobernav__links a:hover{
+  text-decoration: none;
+}
+
+.hacktobernav__burgerIcon{
+  display: none;
+}
+
+.hacktobernav button {
+  color: #08bdba;
+  border: none;
+}
+
+.hacktobernav button:hover{
+  background: none;
+}
+
+
+@media screen and (max-width : 600px){
+  .hacktobernav__logo{
+    margin: 0px auto;
+    text-align: center;
+  }
+
+  .hacktobernav__links{
+    display: none;
+  }
+  
+  .hacktobernav__burgerIcon{
+    display: block;
+  }
+
+  .hacktobernav__dialog button {
+    color: #08bdba;
+    border: none;
+  }
+
+}
