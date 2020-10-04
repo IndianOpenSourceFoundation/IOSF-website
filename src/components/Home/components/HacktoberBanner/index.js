@@ -12,7 +12,7 @@ const HacktoberBanner = () => {
         <Grid container>
           <Grid item sm={7}>
             <h3>IOSF celebrates the season of open source <span role="img" aria-label="party emojis">🥳🎉</span></h3>
-            <Link>
+            <Link href="/hacktober">
               <Button variant="contained" size="large">
                 Let's Contribute
               </Button>
@@ -26,7 +26,7 @@ const HacktoberBanner = () => {
         <Container>
           <h3>IOSF celebrates the season of open source <span role="img" aria-label="party-emojis">🥳🎉</span></h3>
           <Link>
-            <Button variant="contained">
+            <Button href="/hacktober" variant="contained">
               Let's Contribute
             </Button>
           </Link>

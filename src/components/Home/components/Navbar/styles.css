@@ -26,6 +26,7 @@
 .navbar__links > a {
   color: #3c3c3c;
   font-weight: 600;
+  cursor: pointer;
 }
 
 .navbar__links > a:hover{

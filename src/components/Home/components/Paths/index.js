@@ -6,7 +6,7 @@ import { ArrowForward } from "@material-ui/icons";
 
 const Paths = () => {
   return ( 
-    <div className="paths__section">
+    <div id="paths__section" className="paths__section">
       <Container>
         <h3 className="paths__title">Personalised Learning Paths for Devs</h3>
         <div className="paths__grid">

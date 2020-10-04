@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button, Container, Grid, Link } from '@material-ui/core';
-import { ArrowForward } from '@material-ui/icons';
+import { ArrowForward, GitHub } from '@material-ui/icons';
 
 import "./styles.css";
 import Navbar from "../Navbar"
@@ -21,7 +21,7 @@ const Header = () => {
                 At <strong>IOSF</strong> we have taken a pledge to make open source contribution simplified. Join us in our journey and let's create effective products on our way.
               </p>
               <div className="header__hero__btns">
-                <Link href="/join-us">
+                <Link href="https://lnkd.in/eWYs6nm">
                   <Button 
                     variant="contained" 
                     size="large" 
@@ -30,8 +30,12 @@ const Header = () => {
                   >
                     Join Us</Button>
                 </Link>
-                <Link>
-                  <Button variant="contained" size="large" className="header__ourproducts__btn">Our Products</Button>
+                <Link href="https://github.com/IndianOpenSourceFoundation">
+                  <Button 
+                  variant="contained" 
+                  size="large" 
+                  className="header__ourproducts__btn"
+                  endIcon={<GitHub />}>Our Products</Button>
                 </Link>
               </div>
             </div>

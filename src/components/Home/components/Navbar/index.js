@@ -21,22 +21,27 @@ const Navbar = () => {
           <Container>
            <Toolbar>
              <div className="navbar__logo">
-              <Link href="hello">
+              <Link href="/">
                 <img src="/img/iosf-logo.png" height="40px" alt="iosf-logo" />
                 <h6>Indian Open Source Foundation</h6>
               </Link>
              </div>
              <div className="navbar__links" style={{marginLeft: "auto"}}>
-              <Link style={{paddingLeft: "50px"}}>
+              <Link 
+                onClick={(e) => {
+                  e.preventDefault();
+                  document.querySelector('#paths__section').scrollIntoView({ behavior: "smooth" })
+                }}
+              style={{paddingLeft: "50px"}}>
                 Learning Path
               </Link>
-              <Link style={{paddingLeft: "50px"}}>
+              <Link href="https://github.com/IndianOpenSourceFoundation" style={{paddingLeft: "50px"}}>
                 Our Products
               </Link>
               <Link style={{paddingLeft: "50px"}}>
                 Blog
               </Link>
-              <Link style={{paddingLeft: "50px"}}>
+              <Link href="https://lnkd.in/eWYs6nm" style={{paddingLeft: "50px"}}>
                 <Button>
                   Join Us
                 </Button>

@@ -14,7 +14,7 @@ const Footer = () => {
             Join us as a contributor and associate with us in our journey for making Open Source Contribution lit <span role="img" aria-label="fire emoji">🔥</span> and super powerful for the budding and already existing developer community.
           </blockquote>
           <Link>
-            <Button variant="contained" size="large">Join Us</Button>
+            <Button href="https://lnkd.in/eWYs6nm" variant="contained" size="large">Join Us</Button>
           </Link>
         </div>
         <div className="footer__grid">

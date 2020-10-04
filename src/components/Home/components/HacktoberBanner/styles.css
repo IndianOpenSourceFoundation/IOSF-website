@@ -1,5 +1,6 @@
 .hacktoberbanner__section{
-  height: 600px;
+  height: 400px;
+  padding: 50px 0px;
   background-color: #2b2d42;
 }
 
@@ -7,7 +8,7 @@
   background-image: url("/img/home/hacktober_banner.svg");
   background-position: center;
   background-size: cover;
-  height: 600px;
+  height: 400px;
   background-repeat: no-repeat;
 }
 
