@@ -25,8 +25,8 @@ const HacktoberBanner = () => {
       <div className="hactoberbanner__text__sm">
         <Container>
           <h3>IOSF celebrates the season of open source <span role="img" aria-label="party-emojis">🥳🎉</span></h3>
-          <Link>
-            <Button href="/hacktober" variant="contained">
+          <Link  href="/hacktober">
+            <Button variant="contained">
               Let's Contribute
             </Button>
           </Link>
