@@ -23,7 +23,7 @@ const Footer = () => {
               <h4>General Links</h4>
               <ul className="footer__generallinks">
                 <li>
-                  <a href="">About</a>
+                  <a href="/">About</a>
                 </li>
                 <li>
                   <a href="https://github.com/IndianOpenSourceFoundation">Work</a>

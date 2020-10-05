@@ -1,6 +1,5 @@
 .hacktoberbanner__section{
   height: 400px;
-  padding: 50px 0px;
   background-color: #2b2d42;
 }
 
@@ -17,15 +16,15 @@
 }
 
 .hactoberbanner__text h3 {
-  font-size: 3rem;
+  font-size: 2.6rem;
   color: #ffffff;
-  padding-top: 100px;
-  padding-bottom: 50px;
+  padding-top: 50px;
+  padding-bottom: 30px;
   font-family: "Poppins";
 }
 
 .hactoberbanner__text h3 > span {
-  font-size: 3rem;
+  font-size: 2.6rem;
 }
 
 .hactoberbanner__text a:hover {
