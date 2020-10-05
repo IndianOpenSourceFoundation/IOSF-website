@@ -38,10 +38,10 @@ const Navbar = () => {
               <Link href="https://github.com/IndianOpenSourceFoundation" style={{paddingLeft: "50px"}}>
                 Our Products
               </Link>
-              <Link style={{paddingLeft: "50px"}}>
-                Blog
+              <Link href="https://iosf.in/hacktober" style={{paddingLeft: "50px"}}>
+                Hacktober
               </Link>
-              <Link href="https://lnkd.in/eWYs6nm" style={{paddingLeft: "50px"}}>
+              <Link href="https://toolsiosf.typeform.com/to/fl45kmgs" style={{paddingLeft: "50px"}}>
                 <Button>
                   Join Us
                 </Button>

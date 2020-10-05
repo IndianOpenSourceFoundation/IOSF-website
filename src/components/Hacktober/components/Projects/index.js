@@ -20,7 +20,7 @@ const Projects = () => {
                   <p>Official website of Indian Open Source Foundation</p>
                 </CardContent>
                 <CardActions>
-                  <Link>
+                  <Link href="https://github.com/IndianOpenSourceFoundation/IOSF-website">
                     <Button
                       endIcon={<GitHub />}
                     >
@@ -38,7 +38,7 @@ const Projects = () => {
                   <p>Simple CSS based utility for creating reusable styled components</p>
                 </CardContent>
                 <CardActions>
-                  <Link>
+                  <Link href="https://github.com/IndianOpenSourceFoundation/Easy-Styles">
                     <Button
                       endIcon={<GitHub />}
                     >
@@ -56,7 +56,7 @@ const Projects = () => {
                   <p>A CLI based utility for the devs.</p>
                 </CardContent>
                 <CardActions>
-                  <Link>
+                  <Link href="https://github.com/IndianOpenSourceFoundation/dynamic-cli">
                     <Button
                       endIcon={<GitHub />}
                     >
@@ -68,13 +68,13 @@ const Projects = () => {
             </Grid>
             <Grid item sm={4}>
               <Card>
-                <span>HTML & CSS</span>
+                <span>Design</span>
                 <CardContent>
-                  <h4>IOSF Blog</h4>
-                  <p>A CLI based utility for the devs.</p>
+                  <h4>IOSF Design</h4>
+                  <p>Open Source Design Track For Designers</p>
                 </CardContent>
                 <CardActions>
-                  <Link>
+                  <Link href="https://github.com/IndianOpenSourceFoundation/iosf-design">
                     <Button
                       endIcon={<GitHub />}
                     >

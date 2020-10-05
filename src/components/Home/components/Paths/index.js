@@ -20,7 +20,7 @@ const Paths = () => {
                 <p>This path is specially designed for those who have little or zero experience in computer programming and open source.
                   <br /> We will cover JavaScript, Python and Version Control (Git) form scratch and kick off by contributing to small yet interesting projects.
                 </p>
-                <Link>
+                <Link href="https://github.com/IndianOpenSourceFoundation/Interesting-Python">
                   <Button
                     variant="contained"
                     endIcon={<ArrowForward />}
@@ -37,7 +37,7 @@ const Paths = () => {
                 <p>This path is a step further, we will use our programming skills and logic to contribute and build products that will solve a real-life problem.
                   <br /> Contribute to our source code and help us build better products
                 </p>
-                <Link>
+                <Link href="https://github.com/IndianOpenSourceFoundation/Interesting-Python">
                   <Button
                     variant="contained"
                     endIcon={<ArrowForward />}

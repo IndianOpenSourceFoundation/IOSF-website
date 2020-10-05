@@ -13,7 +13,7 @@ const Footer = () => {
           <blockquote>
             Join us as a contributor and associate with us in our journey for making Open Source Contribution lit <span role="img" aria-label="fire emoji">🔥</span> and super powerful for the budding and already existing developer community.
           </blockquote>
-          <Link href="https://lnkd.in/eWYs6nmh">
+          <Link href="https://toolsiosf.typeform.com/to/fl45kmgs">
             <Button variant="contained" size="large">Join Us</Button>
           </Link>
         </div>
@@ -26,13 +26,13 @@ const Footer = () => {
                   <a href="">About</a>
                 </li>
                 <li>
-                  <a href="">Work</a>
+                  <a href="https://github.com/IndianOpenSourceFoundation">Work</a>
                 </li>
                 <li>
-                  <a href="">Join</a>
+                  <a href="https://toolsiosf.typeform.com/to/fl45kmgs">Join</a>
                 </li>
                 <li>
-                  <a href="">Blog</a>
+                  <a href="https://iosf.in/hacktober">Hacktober</a>
                 </li>
               </ul>
             </Grid>
