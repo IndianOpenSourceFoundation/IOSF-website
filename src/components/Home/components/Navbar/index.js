@@ -65,14 +65,20 @@ const Navbar = () => {
             </Toolbar>
           </AppBar>
           <Container>
-            <Link>
+            <Link
+              onClick={(e) => {
+                e.preventDefault();
+                setOpen(false);
+                document.querySelector('#paths__section').scrollIntoView({ behavior: "smooth" })
+              }}
+            >
               Learning Paths
             </Link>
-            <Link>
+            <Link href="https://github.com/IndianOpenSourceFoundation">
               Our Products
             </Link>
-            <Link>
-              Blog
+            <Link href="/hacktober">
+              Hacktober
             </Link>
             <Link>
               <Button>
