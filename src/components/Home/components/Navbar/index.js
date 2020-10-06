@@ -80,7 +80,7 @@ const Navbar = () => {
             <Link href="/hacktober">
               Hacktober
             </Link>
-            <Link>
+            <Link href="https://toolsiosf.typeform.com/to/fl45kmgs">
               <Button>
                 Join Us
               </Button>
