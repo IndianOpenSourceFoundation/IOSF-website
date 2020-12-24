@@ -6,7 +6,7 @@
 
 ## Contribute?
 
-* Fork this Repository. [Click](https://github.com/IndianOpenSourceFoundation/iosf-website)
+* [Fork](https://github.com/IndianOpenSourceFoundation/iosf-website) this Repository.
 * Clone your forked repository to your pc. 
 * Create a new branch for your modifications (ie. ```git branch new-user``` and check it out ```git checkout new-user``` and ```git checkout -b new-user```.The last command will create a new branch and will automatically checkout you to new branch.
 * Add your files (```git add -A```), commit (```git commit -m "added myself"```) and push (```git push origin new-user```).
