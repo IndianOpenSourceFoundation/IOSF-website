@@ -16,6 +16,6 @@
 
 ## Getting Started 
 
-* Make sure you have [npm](https://www.npmjs.com/) or [yarn](https://classic.yarnpkg.com/lang/en/) installed. Or Install By Typing `npm install`
+* Make sure you have [npm](https://www.npmjs.com/) or [yarn](https://classic.yarnpkg.com/lang/en/) installed.
 * Go to the cloned project repo and perform `yarn install` or `npm install`. It will install all the dependencies defined in a `package.json` file.
 * Atlast, perform a `yarn start` or `npm start`. This will run the app in development mode on [localhost port 3000]( http://localhost:3000 ).
