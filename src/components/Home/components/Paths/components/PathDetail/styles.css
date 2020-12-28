@@ -1,0 +1,23 @@
+.pathDetail__card h3{
+  font-size: 1.4rem;
+  font-family: "Poppins";
+  margin-bottom: 1.8rem;
+  color: #3c3c3c;
+}
+
+.pathDetail__card p{
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+  font-weight: 300;
+}
+
+.pathDetail__tag{
+  background-color: #3c3c3c !important;
+  color: #ffffff !important;
+  margin-top: 10px !important;
+}
+
+.pathDetail__tag:nth-child(even){
+  margin-left: 10px !important;
+  margin-right: 10px !important;
+}

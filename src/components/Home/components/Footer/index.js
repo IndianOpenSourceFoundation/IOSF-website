@@ -18,7 +18,7 @@ const Footer = () => {
           </Link>
         </div>
         <div className="footer__grid">
-          <Grid container spacing={5}>
+          <Grid container>
             <Grid item sm={4}>
               <h4>General Links</h4>
               <ul className="footer__generallinks">
@@ -42,7 +42,7 @@ const Footer = () => {
                 <TextField 
                 label="Enter your email" 
                 variant="outlined" />
-                <Button type="submit" variant="contained" size="small">Subscribe</Button>
+                <Button type="submit" variant="contained" size="large">Subscribe</Button>
               </form>
             </Grid>
             <Grid item sm={4}>

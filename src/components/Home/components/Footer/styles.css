@@ -1,7 +1,14 @@
 .footer__section{
   padding: 50px 0px;
-  background-color: #2b2d42;
+  background-color: #3c3c3c;
+  background-attachment: fixed;
+  background-size: cover;
   color: #ffffff;
+}
+
+.footer__blockquote{
+  padding: 1rem;
+  box-shadow: 0 0.5em 1em -0.125em rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.02);
 }
 
 .footer__blockquote > blockquote{

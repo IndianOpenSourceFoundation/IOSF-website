@@ -12,13 +12,13 @@ const Header = () => {
       <Navbar />
       <Container>
         <Grid>
-          <Grid item sm={7}>
+          <Grid item sm={6}>
             <div className="header__hero">
               <h2 className="header__hero__title">
                 Promoting open source, <br />one step at a time
               </h2>
               <p className="header__hero__subtitle">
-                At <strong>IOSF</strong> we have taken a pledge to make open source contribution simplified. Join us in our journey and let's create effective products on our way.
+              At IOSF we have taken a pledge to make open source contribution simplified. Join us in our journey and let's create effective products on our way.
               </p>
               <div className="header__hero__btns">
                 <Link href="https://lnkd.in/eWYs6nm">

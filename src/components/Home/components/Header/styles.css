@@ -10,14 +10,15 @@
 }
 
 .header__hero__title{
-  font-size: 3.5rem;
+  font-size: 3rem;
   font-family: "Poppins";
   color: #2b2d42;
 }
 
 .header__hero__subtitle{
-  font-size: 1.5rem;
-  font-weight: 300;
+  font-size: 1.4rem;
+  font-weight: 500;
+  /* font-family: "Poppins"; */
   color: #4d4d4d;
   line-height: 2.4rem;
   padding-top: 30px;

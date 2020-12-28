@@ -1,20 +1,21 @@
 import React from 'react'
+import "./Home.css";
 
 // components 
 import Footer from './components/Footer';
 import Header from './components/Header'
 import Motto from './components/Motto';
 import Paths from './components/Paths';
-import "./Home.css";
-import HacktoberBanner from './components/HacktoberBanner';
+import Projects from './components/Projects';
+
 
 const Home = () => {
   return ( 
     <div>
       <Header />
       <Motto />
-      <HacktoberBanner />
       <Paths />
+      <Projects />
       <Footer />
     </div>
    );
