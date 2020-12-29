@@ -5,7 +5,7 @@ import { Container, Grid } from '@material-ui/core';
 import ProjectDetail from './components/ProjectDetail'
 
 const Projects = () => {
-  const [ projectDetails, setProjectDetails ] = useState(
+  const [ projectDetails ] = useState(
     [
       {
         project_id: 1,
@@ -21,6 +21,11 @@ const Projects = () => {
         project_id: 3,
         project_title: "Design Gallery",
         project_description: "lorem ispum dolor sit ammet"
+      },
+      {
+        project_id: 4,
+        project_title: "IOSF Blog",
+        project_description: "lorem ipsum dolor sit ammet"
       }
 
     ]

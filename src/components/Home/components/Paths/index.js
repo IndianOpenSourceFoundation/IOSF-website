@@ -1,13 +1,11 @@
 import React, { useState } from 'react';
 import "./styles.css";
-import { Button, Container, Grid, Link } from "@material-ui/core";
-import { ArrowForward } from "@material-ui/icons";
+import { Container, Grid } from "@material-ui/core";
 
 import PathDetail from './components/PathDetail';
 
-
 const Paths = () => {
-  const [pathDetails, setPathDetails] = useState([
+  const [ pathDetails ] = useState([
     {
       path_id: 1,
       path_title: "Beginner Friendly Path",
@@ -17,8 +15,8 @@ const Paths = () => {
     {
       path_id: 2,
       path_title: "Hands-on Path",
-      path_content: "This path is a step further, we will use our programming skills and logic to contribute and build products that will solve a real-life problem. Contribute to our source code and help us build better products",
-      path_tags: ["React", "Django", "Design Systems", "OOPs", "Funcional Programming"]
+      path_content: "This path is a step further, we will use our programming skills and logic to contribute and build products that will solve a real-life problem. Contribute to our source code and help us build better products.",
+      path_tags: ["React", "Django", "Design Systems", "OOPs", "Functional Programming"]
     }
   ])
 

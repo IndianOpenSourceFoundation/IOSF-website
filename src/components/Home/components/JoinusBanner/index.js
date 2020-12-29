@@ -1,0 +1,23 @@
+import React from 'react';
+import './styles.css';
+
+import { Container, Link, Button } from '@material-ui/core';
+
+const JoinusBanner = () => {
+  return ( 
+    <section className="joinusBanner__section">
+      <Container>
+        <p>Join us as a contributor and associate with us in our journey for making Open Source Contribution lit 🔥 and super powerful for the budding and already existing developer community.</p>
+        <Link>
+          <Button
+            variant="contained"
+          >
+            JOIN US
+          </Button>
+        </Link>
+      </Container>
+    </section>
+   );
+}
+ 
+export default JoinusBanner;

@@ -7,6 +7,7 @@ import Header from './components/Header'
 import Motto from './components/Motto';
 import Paths from './components/Paths';
 import Projects from './components/Projects';
+import JoinusBanner from './components/JoinusBanner';
 
 
 const Home = () => {
@@ -16,6 +17,7 @@ const Home = () => {
       <Motto />
       <Paths />
       <Projects />
+      <JoinusBanner/>
       <Footer />
     </div>
    );

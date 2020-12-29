@@ -8,15 +8,6 @@ const Footer = () => {
   return (
     <footer className="footer__section">
       <Container>
-        
-        <div className="footer__blockquote">
-          <blockquote>
-            Join us as a contributor and associate with us in our journey for making Open Source Contribution lit <span role="img" aria-label="fire emoji">🔥</span> and super powerful for the budding and already existing developer community.
-          </blockquote>
-          <Link href="https://toolsiosf.typeform.com/to/fl45kmgs">
-            <Button variant="contained" size="large">Join Us</Button>
-          </Link>
-        </div>
         <div className="footer__grid">
           <Grid container>
             <Grid item sm={4}>
@@ -42,7 +33,10 @@ const Footer = () => {
                 <TextField 
                 label="Enter your email" 
                 variant="outlined" />
-                <Button type="submit" variant="contained" size="large">Subscribe</Button>
+                <Button
+                  type="submit"
+                  variant="contained"
+                >Subscribe</Button>
               </form>
             </Grid>
             <Grid item sm={4}>

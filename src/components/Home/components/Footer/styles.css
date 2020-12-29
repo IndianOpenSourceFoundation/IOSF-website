@@ -1,47 +1,11 @@
 .footer__section{
   padding: 50px 0px;
-  background-color: #3c3c3c;
+  background-color: #273036;
   background-attachment: fixed;
   background-size: cover;
   color: #ffffff;
 }
 
-.footer__blockquote{
-  padding: 1rem;
-  box-shadow: 0 0.5em 1em -0.125em rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.02);
-}
-
-.footer__blockquote > blockquote{
-  font-size: 1.5rem;
-  line-height: 2.5rem;
-  text-align: center;
-  font-weight: 200;
-  font-style: italic;
-  border-left: 5px solid #ef233c;
-}
-
-.footer__blockquote > blockquote > span {
-  font-size: 1.5rem;
-}
-
-.footer__blockquote > a:hover {
-  text-decoration: none;
-}
-
-.footer__blockquote > a > button{
-  display: block;
-  margin: 20px auto;
-  background-color: #ef233c;
-  box-shadow: none;
-  color: #ffffff;
-  text-align: center;
-}
-
-.footer__blockquote > a> button:hover {
-  text-decoration: none;
-  background-color: #ef233c;
-  box-shadow: none;
-}
 
 .footer__grid {
   padding: 50px 0px;
@@ -92,14 +56,12 @@
 .footer__subscribe > button{
   margin-top: 20px;
   display: block;
-  background-color: #00d1b2;
+  background-color: #0099FF;
   color: #ffffff;
-  box-shadow: none;
 }
 
 .footer__subscribe > button:hover {
-  background-color: #00d1b2;
-  box-shadow: none;
+  background-color: #0099FF;
 }
 
 .footer__copyright{
@@ -112,8 +74,5 @@
 }
 
 @media screen and (max-width : 600px){
-  .footer__blockquote > blockquote{
-    font-size: 1rem;
-    line-height: 2rem;
-  }
+  
 }

@@ -1,0 +1,29 @@
+.joinusBanner__section{
+  padding: 2rem 0rem;
+  background-color: #273036;
+  text-align: center;
+}
+
+.joinusBanner__section p {
+  padding: 2rem 0rem;
+  font-size: 1.6rem;
+  font-style: italic;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.joinusBanner__section a:hover {
+  text-decoration: none;
+}
+
+.joinusBanner__section a > button {
+  height: 60px;
+  line-height: 60px;
+  padding: 0px 30px;
+  background-color: #ef233c;
+  color: #ffffff;
+}
+
+.joinusBanner__section a > button:hover {
+  background-color: #ef233c;
+}

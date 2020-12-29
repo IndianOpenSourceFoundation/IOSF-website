@@ -1,3 +1,7 @@
+.pathDetail__card .MuiCardContent-root{
+  height: 300px;
+}
+
 .pathDetail__card h3{
   font-size: 1.4rem;
   font-family: "Poppins";
@@ -20,4 +24,15 @@
 .pathDetail__tag:nth-child(even){
   margin-left: 10px !important;
   margin-right: 10px !important;
+}
+
+.pathDetail__card a:hover{
+  text-decoration: none;
+}
+
+
+@media screen and (max-width:900px){
+  .pathDetail__card .MuiCardContent-root{
+    height: 400px;
+  }
 }
