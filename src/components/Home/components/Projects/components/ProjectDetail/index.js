@@ -2,6 +2,7 @@ import React from 'react';
 import "./styles.css";
 
 import { Card, CardContent, CardActions, Button, Link } from '@material-ui/core'
+import { GitHub } from '@material-ui/icons';
 
 const ProjectDetail = ( {title, description } ) => {
   return (
@@ -12,7 +13,9 @@ const ProjectDetail = ( {title, description } ) => {
       </CardContent>
       <CardActions>
         <Link>
-          <Button>
+          <Button
+            startIcon={<GitHub />}
+          >
             VIEW PROJECT
           </Button>
         </Link>
