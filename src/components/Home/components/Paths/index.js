@@ -10,13 +10,15 @@ const Paths = () => {
       path_id: 1,
       path_title: "Beginner Friendly Path",
       path_content: "This path is specially designed for those who have little or zero experience in computer programming and open source. We will cover JavaScript, Python and Version Control (Git) form scratch and kick off by contributing to small yet interesting projects.",
-      path_tags: ["JavaScript", "Python", "REST", "GIT", "COMMAND LINE"]
+      path_tags: ["JavaScript", "Python", "HTML/CSS", "REST", "GIT", "COMMAND LINE", "BASH"],
+      path_url: "/path/beginner-friendly"
     },
     {
       path_id: 2,
       path_title: "Hands-on Path",
       path_content: "This path is a step further, we will use our programming skills and logic to contribute and build products that will solve a real-life problem. Contribute to our source code and help us build better products.",
-      path_tags: ["React", "Django", "Design Systems", "OOPs", "Functional Programming"]
+      path_tags: ["React", "Django", "Design Systems", "OOPs", "Functional Programming"],
+      path_url: "/path/hands-on"
     }
   ])
 
@@ -33,7 +35,7 @@ const Paths = () => {
                 pathDetails.map(pathDetail => {
                   return(
                     <Grid key={pathDetail.path_id} item sm={6}>
-                      <PathDetail title={pathDetail.path_title} content={pathDetail.path_content} tags={pathDetail.path_tags}  />
+                      <PathDetail title={pathDetail.path_title} content={pathDetail.path_content} tags={pathDetail.path_tags} url={pathDetail.path_url}  />
                     </Grid>
                   )
                 })

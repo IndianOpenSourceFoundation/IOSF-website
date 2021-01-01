@@ -1,0 +1,16 @@
+.handsOn__section{
+  width: 700px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.handsOn__section h3 {
+  font-size: 2rem;
+  color: #3c3c3c;
+}
+
+.handsOn__section p {
+  margin-top: 2rem;
+  font-size: 1.4rem;
+  color: #ababab;
+}

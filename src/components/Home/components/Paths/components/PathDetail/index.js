@@ -3,9 +3,7 @@ import "./styles.css";
 
 import { Card, CardContent, CardActions, Link, Button, Divider } from '@material-ui/core'
 
-const PathDetail = ( { title, content, tags } ) => {
-  console.log(tags)
-
+const PathDetail = ( { title, content, tags, url } ) => {
   return (
     <Card className="pathDetail__card">
       <CardContent>
@@ -20,17 +18,14 @@ const PathDetail = ( { title, content, tags } ) => {
       </CardContent>
       <Divider />
       <CardActions>
-        <Link>
+        <Link
+          href={url}
+        >
           <Button 
             variant="contained"
           >
             START PATH
           </Button>
-        </Link>
-        <Link
-          href="#"
-        >
-          MORE DETAILS
         </Link>
       </CardActions>
     </Card>

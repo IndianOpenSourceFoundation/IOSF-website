@@ -12,6 +12,10 @@
   font-weight: 600;
 }
 
+.joinusBanner__section p span {
+  font-size: 1.6rem;
+}
+
 .joinusBanner__section a:hover {
   text-decoration: none;
 }

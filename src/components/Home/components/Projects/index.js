@@ -15,19 +15,13 @@ const Projects = () => {
       {
         project_id: 2,
         project_title: "Easy Styles",
-        project_description: "lorem ispum dolor sit ammet"
+        project_description: "A minimal CSS based UI library to make resuable design components and design systems"
       },
       {
         project_id: 3,
         project_title: "Design Gallery",
-        project_description: "Open source design gallery to showcase the work of our design path contributors."
+        project_description: "Open source design gallery that showcases work of our fellow designers. Icons, logos, UI screens, illustrations you'll find em all here."
       },
-      {
-        project_id: 4,
-        project_title: "IOSF Blog",
-        project_description: "lorem ipsum dolor sit ammet"
-      }
-
     ]
   )
 

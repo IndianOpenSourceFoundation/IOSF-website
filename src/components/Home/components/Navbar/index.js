@@ -77,10 +77,7 @@ const Navbar = () => {
               Learning Paths
             </Link>
             <Link href="https://github.com/IndianOpenSourceFoundation">
-              Our Products
-            </Link>
-            <Link href="/hacktober">
-              Hacktober
+              Projects
             </Link>
             <Link href="https://toolsiosf.typeform.com/to/fl45kmgs">
               <Button>
