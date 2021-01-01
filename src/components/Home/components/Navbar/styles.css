@@ -34,13 +34,13 @@
 }
 
 .navbar__links > a > button {
-  background-color: transparent;
-  border: 1px solid #ef233c;
-  color: #ef233c;
+  background-color: #ef233c;
+  color: #ffffff;
 }
 
 .navbar__links > a > button:hover {
-  background-color: transparent;
+  background-color: #ef233c;
+  color: #ffffff;
 }
 
 .navbar__burgerIcon{

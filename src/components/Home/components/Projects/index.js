@@ -10,7 +10,7 @@ const Projects = () => {
       {
         project_id: 1,
         project_title: "Dynamic",
-        project_description: "lorem ispum dolor sit ammet"
+        project_description: "A command line utility that can connect to an external databases, also fetch suggestions from different developer communities like stack-overflow"
       },
       {
         project_id: 2,
@@ -20,7 +20,7 @@ const Projects = () => {
       {
         project_id: 3,
         project_title: "Design Gallery",
-        project_description: "lorem ispum dolor sit ammet"
+        project_description: "Open source design gallery to showcase the work of our design path contributors."
       },
       {
         project_id: 4,

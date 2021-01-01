@@ -27,10 +27,10 @@ const PathDetail = ( { title, content, tags } ) => {
             START PATH
           </Button>
         </Link>
-        <Link>
-          <Button>
-            More Details
-          </Button>
+        <Link
+          href="#"
+        >
+          MORE DETAILS
         </Link>
       </CardActions>
     </Card>

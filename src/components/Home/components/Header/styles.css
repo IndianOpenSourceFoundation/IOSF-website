@@ -1,6 +1,6 @@
 .header{
   height: 100vh;
-  background-image: url("/img/home/iosf_hero_banner.png");
+  background-image: url("/img/home/banner.png");
   background-size: cover;
   background-position: center;
 }
@@ -16,10 +16,10 @@
 }
 
 .header__hero__subtitle{
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   font-weight: 500;
-  /* font-family: "Poppins"; */
-  color: #4d4d4d;
+  font-family: "Poppins";
+  color: #3c3c3c;
   line-height: 2.4rem;
   padding-top: 30px;
 }
@@ -33,18 +33,12 @@
 }
 
 .header__hero__btns > a > button {
-  height: 52px;
-  line-height: 26px;
-  border-radius: 30px;
-  box-shadow: none;
+  height: 60px;
+  line-height: 30px;
 }
 
 .header__hero__btns > a:hover {
   text-decoration: none;
-}
-
-.header__hero__btns > a > button:hover {
-  box-shadow: none;
 }
 
 button.header__joinus__btn{
@@ -60,14 +54,16 @@ button.header__joinus__btn > span {
 }
 
 button.header__ourproducts__btn{
-  background-color: transparent;
-  border: 1px solid #ef233c;
+  background-color: #f2f2f2;
+  border: 2px solid #ef233c;
   margin-left: 30px;
+  box-shadow: none;
 }
 
 button.header__ourproducts__btn:hover{
-  background-color: transparent;
-  border: 1px solid #ef233c;
+  background-color: #f2f2f2;
+  border: 2px solid #ef233c;
+  box-shadow: none;
 }
 
 button.header__ourproducts__btn > span {

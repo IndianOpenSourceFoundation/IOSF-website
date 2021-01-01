@@ -11,14 +11,14 @@ const Header = () => {
     <div className="header">
       <Navbar />
       <Container>
-        <Grid>
+        <Grid container>
           <Grid item sm={6}>
             <div className="header__hero">
               <h2 className="header__hero__title">
-                Promoting open source, <br />one step at a time
+                Kick-start your open source contributions
               </h2>
               <p className="header__hero__subtitle">
-              At IOSF we have taken a pledge to make open source contribution simplified. Join us in our journey and let's create effective products on our way.
+                Let's promote & simplify open source, one step at a time.
               </p>
               <div className="header__hero__btns">
                 <Link href="https://lnkd.in/eWYs6nm">
@@ -35,9 +35,14 @@ const Header = () => {
                   variant="contained" 
                   size="large" 
                   className="header__ourproducts__btn"
-                  endIcon={<GitHub />}>Our Products</Button>
+                  endIcon={<GitHub />}>Projects</Button>
                 </Link>
               </div>
+            </div>
+          </Grid>
+          <Grid item sm={6}>
+            <div className="header__banner">
+
             </div>
           </Grid>
         </Grid>

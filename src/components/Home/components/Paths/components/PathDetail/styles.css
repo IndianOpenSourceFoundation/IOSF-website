@@ -16,7 +16,7 @@
 }
 
 .pathDetail__tag{
-  background-color: #3c3c3c !important;
+  background-color: #c3c3c3 !important;
   color: #ffffff !important;
   margin-top: 10px !important;
 }
@@ -26,12 +26,23 @@
   margin-right: 10px !important;
 }
 
+.pathDetail__card a{
+  color: #3c3c3c;
+}
+
 .pathDetail__card a:hover{
+  color: #3c3c3c;
   text-decoration: none;
 }
 
-.pathDetail__card a > button:nth-child(odd) {
-  color: #3c3c3c;
+.pathDetail__card a > button{ 
+  background-color: #2b2d42;
+  color: #ffffff;
+}
+
+.pathDetail__card a > button:hover { 
+  background-color: #2b2d42;
+  color: #ffffff;
 }
 
 

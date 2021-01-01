@@ -33,16 +33,18 @@ const Navbar = () => {
                   document.querySelector('#paths__section').scrollIntoView({ behavior: "smooth" })
                 }}
               style={{paddingLeft: "50px"}}>
-                Learning Path
+                Learning Paths
               </Link>
               <Link href="https://github.com/IndianOpenSourceFoundation" style={{paddingLeft: "50px"}}>
-                Our Products
+                Projects
               </Link>
-              <Link href="https://iosf.in/hacktober" style={{paddingLeft: "50px"}}>
+              {/* <Link href="https://iosf.in/hacktober" style={{paddingLeft: "50px"}}>
                 Hacktober
-              </Link>
+              </Link> */}
               <Link href="https://toolsiosf.typeform.com/to/fl45kmgs" style={{paddingLeft: "50px"}}>
-                <Button>
+                <Button
+                  variant="contained"
+                >
                   Join Us
                 </Button>
               </Link>
