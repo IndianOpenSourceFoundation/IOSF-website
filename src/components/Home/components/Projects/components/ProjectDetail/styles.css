@@ -1,5 +1,6 @@
 .projectDetail__card{
   border-left: 4px solid #ef233c;
+  margin: 2rem 0rem;
 }
 
 .projectDetail__card .MuiCardContent-root{

@@ -35,7 +35,7 @@ const Paths = () => {
                 pathDetails.map(pathDetail => {
                   return(
                     <Grid key={pathDetail.path_id} item sm={6}>
-                      <PathDetail title={pathDetail.path_title} content={pathDetail.path_content} tags={pathDetail.path_tags} url={pathDetail.path_url}  />
+                      <PathDetail title={pathDetail.path_title} content={pathDetail.path_content} tags={pathDetail.path_tags} url={pathDetail.path_url} />
                     </Grid>
                   )
                 })

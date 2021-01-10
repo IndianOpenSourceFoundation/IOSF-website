@@ -4,7 +4,7 @@ import "./styles.css";
 import { Card, CardContent, CardActions, Button, Link } from '@material-ui/core'
 import { GitHub } from '@material-ui/icons';
 
-const ProjectDetail = ( {title, description } ) => {
+const ProjectDetail = ( {title, description, url } ) => {
   return (
     <Card className="projectDetail__card">
       <CardContent>
@@ -12,7 +12,9 @@ const ProjectDetail = ( {title, description } ) => {
         <p>{description}</p>
       </CardContent>
       <CardActions>
-        <Link>
+        <Link
+          href={url}
+        >
           <Button
             startIcon={<GitHub />}
           >
